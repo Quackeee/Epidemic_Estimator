@@ -1,0 +1,4 @@
+/rawData/*
+fit.log
+__pycache__
+*.pyc
