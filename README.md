@@ -1,15 +1,15 @@
-#Epidemic Estimator
+# Epidemic Estimator
 
-##Aim
+## Aim
 This small project, that I started out of boredom on the quarantine, aims at roughly estimating the course
 of the SARS-CoV-2 epidemic in your country. Have fun and try it.
 
-##How does it work?
+## How does it work?
 Choose the country you want to estimate for, provide the beginning date and expected limit of cases
 and the program will download data from the [CSSE database](https://github.com/CSSEGISandData/COVID-19)
 and fit it with the logistic function.
 
-##What are the requirements?
+## What are the requirements?
 Unfortunately the program works only on Linux at the moment since it depends on **wget** to download
 the data and on **gnuplot** to fit the data to the function and plot a graph. If you have an idea on
 building versions for other platforms or making it platform-independent feel free to do it!
@@ -28,7 +28,7 @@ So go ahead and run:
 
 `sudo apt install wget`
 
-##How do I run the program?
+## How do I run the program?
 
 Copy the repository from GitHub, cd to the directory and run:
 
@@ -42,7 +42,7 @@ Alternatively you can input the details from terminal like so:
 
 Then the program generates an output file called *plot.png*. It contains a graph, have a look at it.
 
-##How do I read the data?
+## How do I read the data?
 
 0 on the x axis is the 1st of March 2020. The crosses are the number of cases read from the database.
 The line is the logistic function which should illustrate the course of the epidemic according to the
@@ -74,11 +74,11 @@ There are however many other factors that will affect the case limit in your cou
 the government's reaction time, people's attitude, etc. so I suggest experimenting with different numbers and findinga
 those that yield the best results for your 
 
-##Exclaimers
+## Exclaimers
 
 There are some things that don't work yet but will be fixed. This includes:
 
-* dates from before 01-01-2020
+* dates from before they started using mm-dd-yyyy format
 * countries with multiple regions distinguished by the database (like France for example)
 
 Some non-essential but nice-to-have features I might work on:
@@ -86,7 +86,7 @@ Some non-essential but nice-to-have features I might work on:
 * swapping the command line parameters for something more flag-based
 * making the graph display dates instead of numbers
 
-##Can I help?
+## Can I help?
 
 Sure you can! I invite everybody to contribute to the project in any way they can. So suggest features, help find errors,
 work on aforementioned mods, refactor the code, do whatever you want.
@@ -99,4 +99,5 @@ What I would most appreciate however is for you to:
 
 The database is somewhat imperfect, so there might be some country- or date-dependent errors to correct.
 
-##Stay safe, friends!
+## Stay safe, friends!
+

@@ -17,6 +17,9 @@ if len(sys.argv) > 2:
 else:
     startdate = datetime.strptime(input("please input the beginning date [mm-dd-yyyy]: "), "%m-%d-%Y")
 
+if startdate < datetime.strptime("01-22-2020", "%m-%d-%Y"):
+    startdate = datetime.strptime("01-22-2020", "%m-%d-%Y")
+
 if len(sys.argv) > 3:
     limit = int(sys.argv[3])
 else:
@@ -52,7 +55,7 @@ data = correct(data, country)
 generatePlotScript(limit)
 
 outfile = open("./covid.data", "w")
-outfile.write("#day | number_of_cases")
+outfile.write("#day | number_of_cases\n")
 
 for i in range(0, len(data)):
     if data[i][0][5:7] == '03':

@@ -13,7 +13,7 @@ def correct(data, country):
         data.remove(data[5])
         data.remove(data[13])
 
-    # elif country == 'myCountry':
+    # elif country == 'MyCountry':
     #   necessary corrections
 
     return data
