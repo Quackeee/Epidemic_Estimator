@@ -71,7 +71,7 @@ ratio by your country's total population. Now the ratio will depend on whether w
 (~0.00006) or only the Hubei Province (~0.0008).
 
 There are however many other factors that will affect the case limit in your country like the population density,
-the government's reaction time, people's attitude, etc. so I suggest experimenting with different numbers and findinga
+the government's reaction time, people's attitude, etc. so I suggest experimenting with different numbers and finding
 those that yield the best results for your 
 
 ## Exclaimers
