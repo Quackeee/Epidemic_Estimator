@@ -3,3 +3,5 @@ fit.log
 __pycache__
 *.pyc
 .idea
+plot.png
+covid.data
