@@ -32,13 +32,13 @@ So go ahead and run:
 
 Copy the repository from GitHub, cd to the directory and run:
 
-`python epidemicEstimator.py`
+`python3 epidemicEstimator.py`
 
 From this point you will be asked to provide the details needed by the program to do the counting.
 
 Alternatively you can input the details from terminal like so:
 
-`python epidemicEstimator.py [country] [date in mm-dd-yyyy format] [case limit]`
+`python3 epidemicEstimator.py [country] [date in mm-dd-yyyy format] [case limit]`
 
 Then the program generates an output file called *plot.png*. It contains a graph, have a look at it.
 
